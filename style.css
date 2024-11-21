@@ -244,7 +244,15 @@ a:hover {
 /* Medium Screens (Tablets) */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
     }
 
     .header-text {
@@ -263,12 +271,41 @@ a:hover {
         padding: 0.5rem;
         font-size: 1rem;
     }
+
+    .carousel-arrow {
+        font-size: 2.5rem;
+    }
+
+    .left-arrow {
+        left: -20px;
+    }
+    
+    .right-arrow {
+        right: -20px;
+    }
+
+    .carousel-dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    .image-container {
+        margin: 0.7rem auto;
+    }
 }
 
 /* Small Screens (Mobile) */
 @media screen and (max-width: 480px) {
     body {
-        font-size: 14px;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
     }
 
     .header-text {
@@ -286,5 +323,26 @@ a:hover {
 
     .text-container {
         font-size: 1rem;
+    }
+
+    .carousel-arrow {
+        font-size: 2rem;
+    }
+
+    .left-arrow {
+        left: -25px;
+    }
+    
+    .right-arrow {
+        right: -25px;
+    }
+
+    .carousel-dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .image-container {
+        margin: 0.5rem auto;
     }
 }
