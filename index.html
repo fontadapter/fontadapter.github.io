@@ -1,6 +1,3 @@
-<script src="https://www.google.com/jsapi" type="text/javascript"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
 <script src="index.js" type="text/javascript"></script>
 
 <link href="style.css" rel="stylesheet" type="text/css" />
@@ -8,214 +5,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
     rel='stylesheet' type='text/css'>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-</style>
-
-<style type="text/css">
-    body {
-        font-family: "Titillium Web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif,
-            "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Changa One:400,400italic", "Varela Round:400";
-        font-weight: 300;
-        font-size: 24px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1600px;
-        color: #666;
-    }
-
-    h1 {
-        color: #000;
-        font-size: 40px;
-        font-weight: 300;
-    }
-
-    h2 {
-        color: #444;
-        font-size: 35px;
-        font-weight: 300;
-    }
-
-    h3 {
-        color: #444;
-        font-size: 30px;
-        font-weight: 300;
-    }
-
-    .disclaimerbox {
-        background-color: #eee;
-        border: 1px solid #eeeeee;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        padding: 20px;
-    }
-
-    img.header-img {
-        height: 140px;
-        border: 1px solid black;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-    }
-
-    img.rounded {
-        border: 1px solid #eeeeee;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-    }
-
-    a:link,
-    a:visited {
-        color: #1367a7;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #208799;
-    }
-
-    td.dl-link {
-        height: 160px;
-        text-align: center;
-        font-size: 20px;
-    }
-
-    table td {
-        font-size: 24px;
-        line-height: 1.15em;
-    }
-
-    .layered-paper-big {
-        /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow:
-            0px 0px 1px 1px rgba(0, 0, 0, 0.35),
-            /* The top layer shadow */
-            5px 5px 0 0px #fff,
-            /* The second layer */
-            5px 5px 1px 1px rgba(0, 0, 0, 0.35),
-            /* The second layer shadow */
-            10px 10px 0 0px #fff,
-            /* The third layer */
-            10px 10px 1px 1px rgba(0, 0, 0, 0.35),
-            /* The third layer shadow */
-            15px 15px 0 0px #fff,
-            /* The fourth layer */
-            15px 15px 1px 1px rgba(0, 0, 0, 0.35),
-            /* The fourth layer shadow */
-            20px 20px 0 0px #fff,
-            /* The fifth layer */
-            20px 20px 1px 1px rgba(0, 0, 0, 0.35),
-            /* The fifth layer shadow */
-            25px 25px 0 0px #fff,
-            /* The fifth layer */
-            25px 25px 1px 1px rgba(0, 0, 0, 0.35);
-        /* The fifth layer shadow */
-        margin-left: 10px;
-        margin-right: 45px;
-    }
-
-    .paper-big {
-        /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow:
-            0px 0px 1px 1px rgba(0, 0, 0, 0.35);
-        /* The top layer shadow */
-
-        margin-left: 10px;
-        margin-right: 45px;
-    }
-
-    .layered-paper {
-        /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow:
-            0px 0px 1px 1px rgba(0, 0, 0, 0.35),
-            /* The top layer shadow */
-            5px 5px 0 0px #fff,
-            /* The second layer */
-            5px 5px 1px 1px rgba(0, 0, 0, 0.35),
-            /* The second layer shadow */
-            10px 10px 0 0px #fff,
-            /* The third layer */
-            10px 10px 1px 1px rgba(0, 0, 0, 0.35);
-        /* The third layer shadow */
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 30px;
-        margin-bottom: 5px;
-    }
-
-    .vert-cent {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    hr {
-        border: 0;
-        height: 1px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    }
-
-    .material-icons {
-        vertical-align: -6px;
-    }
-
-    .paper-btn {
-        position: relative;
-        text-align: center;
-
-        display: inline-block;
-        margin: 8px;
-        padding: 8px 8px;
-
-        border-width: 0;
-        outline: none;
-        border-radius: 2px;
-
-        /* background-color: #68a4fd;
-		color: #ecf0f1 !important; */
-        /* background-color: #ffffff; */
-        color: #3b66a7 !important;
-        font-size: 20px;
-        width: 100px;
-        font-weight: 600;
-    }
-
-    .paper-btn-parent {
-        display: flex;
-        justify-content: center;
-        margin: 16px 0px;
-    }
-
-    .paper-btn:hover {
-        opacity: 0.85;
-    }
-
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-    .venue {
-        color: #1367a7;
-    }
-
-    sup {
-        font-size: smaller;
-        /* Adjust the font size to make it smaller */
-        vertical-align: top;
-        /* Align the text with the top of the surrounding text */
-    }
-</style>
 
 <html>
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>FontAdapter: Tuning-free Font Customization in Visual Text Generation</title>
     <meta property="og:image" content="resources/2_overview.png" />
@@ -237,26 +32,23 @@
 <body>
     <br><br><br>
     <center>
-        <span style="font-size:45px; color:#000; font-weight: bold;" width="1500px">
+        <span class="header-text">
             FontAdapter: Tuning-free Font Customization in Visual Text Generation
-            <br><br>
         </span>
     </center>
 
-    <br><br>
+    <br>
+
     <center>
-        <h3 style="font-size: 30px;">
-            Anonymous authors
-        </h3>
+        <h3>Anonymous authors</h3>
         <br>
-        <h2 style="font-size: 33px;">
+        <h2>
             <b>TL;DR:</b>&nbsp FontAdapter performs font customization in visual text generation, without fine-tuning.
         </h2>
         <br>
         <div class="image-container">
-            <img id="overview" src="resources/0_teaser.png" width="1400" alt="Overview Image">
+            <img id="overview-image" src="resources/0_teaser.png" alt="Overview Image">
         </div>
-        <br>
     </center>
 
     <div class="docs-section" id="abstract">
@@ -266,22 +58,20 @@
             </h1>
         </center>
     
-        <table align="center" width="1500px">
-            <tr>
-                <td style="text-align: justify; line-height: 1.5;">
-                    We present <i>FontAdapter</i>, a tuning-free framework that generates visual text in
-                    <i>any unseen fonts</i> in a few seconds, conditioned on a reference glyph image.
-                    Our approach is built upon the construction of synthetic datasets, leveraging large-scale
-                    online fonts and realistic background images generated by a model. We propose a two-stage
-                    training scheme tailored to the properties of our dataset: first learning font attributes
-                    from isolated glyphs, then fine-tuning on scene-text images to integrate these styles within
-                    diverse backgrounds. Our experiments show that FontAdapter achieves robust, high-quality
-                    customization across diverse fonts <i>without additional fine-tuning</i>. Moreover, we
-                    demonstrate various intriguing properties of FontAdapter, including cross-language
-                    font transfer, font style blending, and visual text editing.
-                </td>
-            </tr>
-        </table>
+        <div class="text-container">
+            <p>
+                We present <i>FontAdapter</i>, a tuning-free framework that generates visual text in
+                <i>any unseen fonts</i> in a few seconds, conditioned on a reference glyph image.
+                Our approach is built upon the construction of synthetic datasets, leveraging large-scale
+                online fonts and realistic background images generated by a model. We propose a two-stage
+                training scheme tailored to the properties of our dataset: first learning font attributes
+                from isolated glyphs, then fine-tuning on scene-text images to integrate these styles within
+                diverse backgrounds. Our experiments show that FontAdapter achieves robust, high-quality
+                customization across diverse fonts <i>without additional fine-tuning</i>. Moreover, we
+                demonstrate various intriguing properties of FontAdapter, including cross-language
+                font transfer, font style blending, and visual text editing.
+            </p>
+        </div>
     </div>
 
 
@@ -290,65 +80,56 @@
             <h1 class="navbar-heading">
                 <b>Problem Statement</b>
             </h1>
+    
+            <div class="text-container">
+                <p>
+                    Our goal is to generate a 
+                    <span style="color: rgb(84, 131, 52);"><b>visual text image</b></span>
+                    with a 
+                    <span style="color: rgb(112, 48, 160);"><b>customized font style</b></span>,
+                    given a 
+                    <span style="color: rgb(193, 24, 0);"><b>text prompt</b></span> 
+                    and a 
+                    <span style="color: rgb(191, 145, 2);"><b>font reference image</b></span>.
+                </p>
+            </div>
 
-            <table align="center" width="1500px">
-                <tr>
-                    <td style="text-align: justify;">
-                        Our goal is to generate a 
-                        <span style="color: rgb(84, 131, 52);"><b>visual text image</b></span>
-                        with a 
-                        <span style="color: rgb(112, 48, 160);"><b>customized font style</b></span>,
-                        given a 
-                        <span style="color: rgb(193, 24, 0);"><b>text prompt</b></span> 
-                        and a 
-                        <span style="color: rgb(191, 145, 2);"><b>font reference image</b></span>.
-                    </td>
-                </tr>
-            </table>
-
-            <br>
             <div class="image-container">
-                <img id="overview" src="resources/1_problem.png" width="1500" alt="Problem Statement Image">
+                <img id="problem-image" src="resources/1_problem.png" alt="Problem Statement Image">
             </div>
         </center>
     </div>
-
+    
     <div class="docs-section" id="overview">
         <center>
             <h1 class="navbar-heading">
                 <b>FontAdapter</b>
             </h1>
     
-            <table align="center" width="1500px">
-                <tr>
-                    <td style="text-align: justify; line-height: 1.5;">
-                        Based on our synthetic datasets, we develop a <b>two-stage training scheme</b> that enables
-                        our model to effectively learn font attributes while optimally using our synthetic datasets.
-                    </td>
-                </tr>
-            </table>
-
-            <br>
-            <div class="image-container">
-                <img id="overview" src="resources/2_overview.png" width="1500" alt="Problem Statement Image">
+            <div class="text-container">
+                <p>
+                    Based on our synthetic datasets, we develop a <b>two-stage training scheme</b> that enables
+                    our model to effectively learn font attributes while optimally using our synthetic datasets.
+                </p>
             </div>
-            <br>
 
-            <table align="center" width="1500px">
-                <tr>
-                    <td style="text-align: justify; line-height: 1.5;">
-                        In the <b>first stage</b>, FontAdapter is trained to generate a different
-                        <i>text-only</i> image with varied text content. This process allows FontAdapter
-                        to focus on extracting font attributes from glyph embeddings, concentrating on the finer
-                        details of the target glyphs.
-                        <br><br>
-                        In the <b>second stage</b>, FontAdapter is trained to
-                        generate a <i>scene-text</i> image that includes additional visual elements, such as
-                        background and glyph colors. This enables FontAdapter to flexibly customize
-                        font styles across diverse image contexts.
-                    </td>
-                </tr>
-            </table>
+            <div class="image-container">
+                <img id="overview-image" src="resources/2_overview.png" alt="Overview Image">
+            </div>
+    
+            <div class="text-container">
+                <p>
+                    In the <b>first stage</b>, FontAdapter is trained to generate a different
+                    <i>text-only</i> image with varied text content. This process allows FontAdapter
+                    to focus on extracting font attributes from glyph embeddings, concentrating on the finer
+                    details of the target glyphs.
+                    <br><br>
+                    In the <b>second stage</b>, FontAdapter is trained to
+                    generate a <i>scene-text</i> image that includes additional visual elements, such as
+                    background and glyph colors. This enables FontAdapter to flexibly customize
+                    font styles across diverse image contexts.
+                </p>
+            </div>
         </center>
     </div>
 
@@ -372,7 +153,6 @@
                     <img src="resources/3_2_t2i_gen.png" alt="Image 3" class="carousel-image">
                     <img src="resources/3_3_t2i_gen.png" alt="Image 4" class="carousel-image">
                 </div>
-                <br>
                 <button class="carousel-arrow right-arrow">&#8250;</button>
                 <div class="carousel-dots"></div>
             </div>
@@ -392,7 +172,6 @@
                     <img src="resources/4_3_i2i_edit.png" alt="Image 4" class="carousel-image">
                     <img src="resources/4_4_i2i_edit.png" alt="Image 5" class="carousel-image">
                 </div>
-                <br>
                 <button class="carousel-arrow right-arrow">&#8250;</button>
                 <div class="carousel-dots"></div>
             </div>
@@ -412,7 +191,6 @@
                     <img src="resources/5_3_blending.png" alt="Image 4" class="carousel-image">
                     <img src="resources/5_4_blending.png" alt="Image 5" class="carousel-image">
                 </div>
-                <br>
                 <button class="carousel-arrow right-arrow">&#8250;</button>
                 <div class="carousel-dots"></div>
             </div>
@@ -429,7 +207,6 @@
                     <img src="resources/6_0_crossling.png" alt="Image 1" class="carousel-image active">
                     <img src="resources/6_1_crossling.png" alt="Image 2" class="carousel-image">
                 </div>
-                <br>
                 <button class="carousel-arrow right-arrow">&#8250;</button>
                 <div class="carousel-dots"></div>
             </div>
