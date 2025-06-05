@@ -247,7 +247,7 @@ a:hover {
 
 /* TL;DR Section */
 .tldr-section {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #444;
 }
@@ -311,7 +311,7 @@ a:hover {
     }
     
     .tldr-section {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -372,6 +372,6 @@ a:hover {
     }
     
     .tldr-section {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
