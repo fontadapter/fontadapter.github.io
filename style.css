@@ -239,6 +239,19 @@ a:hover {
     background-color: black;
 }
 
+/* Author Block */
+.author-block {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+/* TL;DR Section */
+.tldr-section {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
 /* Responsive Design */
 
 /* Medium Screens (Tablets) */
@@ -292,6 +305,14 @@ a:hover {
     .image-container {
         margin: 0.7rem auto;
     }
+
+    .author-block {
+        font-size: 16px;
+    }
+    
+    .tldr-section {
+        font-size: 18px;
+    }
 }
 
 /* Small Screens (Mobile) */
@@ -344,5 +365,13 @@ a:hover {
 
     .image-container {
         margin: 0.5rem auto;
+    }
+
+    .author-block {
+        font-size: 14px;
+    }
+    
+    .tldr-section {
+        font-size: 16px;
     }
 }
