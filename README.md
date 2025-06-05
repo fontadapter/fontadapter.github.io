@@ -1,4 +1,4 @@
-# FontAdapter: Tuning-Free Font Customization Framework
+# FontAdapter: Instant Font Adaptation in Visual Text Generation
 
 _FontAdapter_ is a framework designed for seamless font customization in text-to-image (T2I) generation. Unlike traditional approaches requiring fine-tuning, FontAdapter enables tuning-free font adaptation by leveraging synthetic datasets and a two-stage training scheme. The framework effectively integrates font styles into diverse visual contexts while maintaining high visual quality and text accuracy.
 
